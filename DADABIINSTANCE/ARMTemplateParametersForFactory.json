@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "DADABIINSTANCE"
+		},
+		"Snowflake1_connectionString": {
+			"value": ""
+		},
+		"Snowflake2_connectionString": {
+			"value": ""
+		},
+		"Snowflake_Seattle_connectionString": {
+			"value": ""
+		},
+		"linkedService1_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage_LakeService_properties_typeProperties_url": {
+			"value": "https://dadabiproj.dfs.core.windows.net/"
+		},
+		"AzureKeyVault_LinkService_properties_typeProperties_baseUrl": {
+			"value": "https://DADABIKEY.vault.azure.net/"
+		},
+		"BLOB__STORAGE_sasUri": {
+			"value": ""
+		}
+	}
+}
