@@ -1,0 +1,12 @@
+{
+	"name": "AzureKeyVault_LinkService",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Access my Key Vault from ADF",
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://DADABIKEY.vault.azure.net/"
+		}
+	}
+}

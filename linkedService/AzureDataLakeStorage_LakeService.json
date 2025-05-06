@@ -1,0 +1,12 @@
+{
+	"name": "AzureDataLakeStorage_LakeService",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "ADF to access my Storage Containers",
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://dadabiproj.dfs.core.windows.net/"
+		}
+	}
+}

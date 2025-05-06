@@ -1,0 +1,17 @@
+{
+	"name": "SeattleSnowflake",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Snowflake_Seattle",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SnowflakeTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "SEATTLE_SCHEMA",
+			"table": "PET_LICENSES_STAGE"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
