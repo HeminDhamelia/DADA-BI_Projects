@@ -1,0 +1,47 @@
+{
+	"name": "Snowflake_dIM_lOCATION",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Snowflake_Seattle",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SnowflakeTable",
+		"schema": [
+			{
+				"name": "LOCATIONSK",
+				"type": "NUMBER",
+				"precision": 38,
+				"scale": 0
+			},
+			{
+				"name": "ZIPCODE",
+				"type": "NUMBER",
+				"precision": 38,
+				"scale": 0
+			},
+			{
+				"name": "EFFECTIVESTARTDATE",
+				"type": "DATE",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "EFFECTIVEENDDATE",
+				"type": "DATE",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "ISCURRENT",
+				"type": "BOOLEAN",
+				"precision": 1,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"schema": "SEATTLE_SCHEMA",
+			"table": "DIMLOCATION"
+		}
+	}
+}

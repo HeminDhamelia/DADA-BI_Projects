@@ -1,0 +1,35 @@
+{
+	"name": "Snowflake_sTAGE",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Snowflake_Seattle",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SnowflakeTable",
+		"schema": [
+			{
+				"name": "LISCENSENUMBERSK",
+				"type": "NUMBER",
+				"precision": 38,
+				"scale": 0
+			},
+			{
+				"name": "LICENSENUMBER",
+				"type": "VARCHAR",
+				"precision": 50,
+				"scale": 0
+			},
+			{
+				"name": "LICENSEISSUEDATE",
+				"type": "DATE",
+				"precision": 10,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"schema": "SEATTLE_SCHEMA",
+			"table": "PET_LICENSES_STAGE"
+		}
+	}
+}
